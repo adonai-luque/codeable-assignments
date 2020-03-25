@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form>
+        <label for="first_name">First Name: </label>
+        <input type="text" name="first_name">
+        <br>
+        <label for="last_name">Last Name: </label>
+        <input type="text" name="last_name">
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email">
+        <br>
+        <label for="zip_code">Zip Code: </label>
+        <input type="text" name="zip_code" pattern="[0-9]{6}" placeholder="123456">
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" name="password">
+        <br>
+        <label for="legal_expertise">Area of legal expertise: </label>
+        <select name="legal_expertise">
+            <option value="Antritrust">Antitrust</option>
+            <option value="Civil Rights">Civil Rights</option>
+            <option value="Inmigration">Inmigration</option>
+            <option value="Memes">Memes</option>
+            <option value="Gaming">Gaming</option>
+            <option value="Pretending to work">Pretending to work</option>
+            <option value="Other" selected>Other</option>
+        </select>
+        <br>
+        <label for="years_of_experience" required>Years of experience: </label>
+        <input type="number" name="years_of_experience" min="0" max="60">
+
+        <br>
+    </form>
+</body>
+
+</html>
