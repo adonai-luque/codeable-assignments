@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <title>Responsive</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    /* mobile */
+    @media screen and (max-width: 768px) {
+      .page {
+        max-width: 1838px;
+        margin: auto;
+        display: flex;
+      }
+
+      .features-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .features-1 header {
+        width: 75%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .features-1 .item-1,
+      .features-1 .item-2,
+      .features-1 .item-3,
+      .features-1 .item-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 230px;
+        width: 50%;
+      }
+
+      .features-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .features-2 header {
+        width: 75%;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .features-1 .item-1,
+      .features-1 .item-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 230px;
+        width: 50%;
+      }
+    }
+
+    /* desktop */
+    @media screen and (min-width: 1440px) {}
+
+    /* tablet */
+    @media screen and (min-width: 769px) and (max-width: 1439px) {}
+  </style>
+</head>
+
+<body>
+
+  <div id="page">
+    <div class="features-1">
+      <header>
+        <h1>Give your clients the best possible experience</h1>
+        <p>The world has become so fast paced that people don’t want to stand by reading a page of info</p>
+      </header>
+      <div class="item-1">
+        <img src="assets/star.png">
+        <h2>Exportable Data Sets</h2>
+        <p>Adwords Keyword research for beginners When you embark on your first PPC journey.</p>
+      </div>
+      <div class="item-2">
+        <img src="assets/email.png">
+        <h2>One-off Emails</h2>
+        <p>Photographs are a way of preserving a moment in our lives for the rest of our lives. Many of us have.
+        </p>
+      </div>
+      <div class="item-3">
+        <img src="assets/camera.png">
+        <h2>Content Customization</h2>
+        <p>With so many different ways today to find information online, it can sometimes be hard to know</p>
+      </div>
+      <div class="item-4">
+        <img src="assets/gear.png">
+        <h2>Automation Workflows</h2>
+        <p>Whenever you need to buy something that will go with whatever you are wearing that day..</p>
+      </div>
+    </div>
+    <div class="features-2">
+      <header>
+        <h1>Features</h1>
+
+      </header>
+      <div class="item-1">
+        <img src="assets/shape1.png">
+        <h2>Custom Conversion Tracking</h2>
+        <p>For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes.
+        </p>
+      </div>
+      <div class="item-2">
+        <img src="assets/shape2.png">
+        <h2>Native Reports & Dashboards</h2>
+        <p>As soon as Computerized Tomography or CT scans became accessible in the 1970s.</p>
+      </div>
+      <div class="image">
+        <img src="assets/Img Bottle Glass.jpg">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
